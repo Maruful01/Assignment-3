@@ -1,4 +1,4 @@
-/*
+
 // Problem-1 
 function kilometerToMeter (kilometer) {
         
@@ -29,6 +29,7 @@ var myBudget = budgetCalculator (2, 3, 1);
 console.log (myBudget);
 
 // Problem-3
+// Hotel cost
 
 function hotelCost (day) {
 
@@ -61,17 +62,22 @@ var myCost = hotelCost (21);
 
 console.log (myCost);
 
-*/
-// Problem 4
-function megaFriend (str) {
 
-    var words = str.split (" ");
-    var longest = "";
-    for (var word of words) {
-        if (word.length > longest.length)
-        longest = word;
+// Problem 4
+// Among the players of Bangladesh crickect team whose name is big
+function megaFriend(players) {
+
+    var word = 0;
+    var longest = 0;
+for (var i = 0; i < players.length; i++) {
+
+    if (players[i].length > word) {
+
+        var word = players[i].length;
+        longest = players[i];
     }
-    return longest;
 }
-var long = megaFriend ("kakil maruful saurov rafi");
-console.log (long)
+return longest;
+}
+var largestName = megaFriend(["Shakib", "Tamim", "Mushfiqur",  "Mahmudullah", "Mashrafe"]);
+console.log (largestName);
