@@ -60,12 +60,18 @@ function hotelCost (day) {
 var myCost = hotelCost (21);
 
 console.log (myCost);
+
 */
+// Problem 4
+function megaFriend (str) {
 
-    var friends = ["shakil", "sumon", "saurov", "abdullah"] 
-
-    for (i = 0; i <= friends.length; i++) {
-        var car = friends[i]
-
-
+    var words = str.split (" ");
+    var longest = "";
+    for (var word of words) {
+        if (word.length > longest.length)
+        longest = word;
     }
+    return longest;
+}
+var long = megaFriend ("kakil maruful saurov rafi");
+console.log (long)
