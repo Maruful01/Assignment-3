@@ -1,0 +1,71 @@
+/*
+// Problem-1 
+function kilometerToMeter (kilometer) {
+        
+                  var meter = kilometer * 1000;
+                  return meter;
+                }
+
+    var TwoKilometer = kilometerToMeter (2);
+    console.log (TwoKilometer);
+
+    var FiveKilometer = kilometerToMeter (5);
+    console.log (FiveKilometer);
+
+// Problem-2
+// I need 2 watches, 3 mobiles and 1 laptop. 
+function budgetCalculator (watch, phone, laptop) {
+
+    var watchPrise =  watch * 50;
+    var phonePrise =  phone * 100;
+    var laptopPrise = laptop * 500;
+
+     var totalBudget = watchPrise + phonePrise + laptopPrise;
+     return totalBudget;
+}
+
+var myBudget = budgetCalculator (2, 3, 1);
+
+console.log (myBudget);
+
+// Problem-3
+
+function hotelCost (day) {
+
+    taka = 0;
+    if (day <= 10) {
+
+        taka = day * 100;
+
+    }
+    else if (day <= 20) {
+
+        var firstPart = 10 * 100;
+        var remaining = day - 10;
+        var secondPart = remaining * 80;
+
+        taka = firstPart + secondPart;
+    }
+    else {
+        var firstPart = 10 * 100;
+        var secondPart = 10 * 80;
+        var remaining = day - 20;
+        var thirdPart = remaining * 50;
+
+         taka = firstPart + secondPart + thirdPart;
+
+    }
+    return taka;
+}
+var myCost = hotelCost (21);
+
+console.log (myCost);
+*/
+
+    var friends = ["shakil", "sumon", "saurov", "abdullah"] 
+
+    for (i = 0; i <= friends.length; i++) {
+        var car = friends[i]
+
+
+    }
